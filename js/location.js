@@ -10,5 +10,5 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Add marker for Av. de Angola 12B, 2900-052 Setúbal
     var marker = L.marker([38.53761, -8.89188]).addTo(map);
-    marker.bindPopup('<b>Cognita</b><br>Av. de Angola 12B<br>2900-052 Setúbal').openPopup();
+    marker.bindPopup('<b>Runa</b><br>Av. de Angola 12B<br>2900-052 Setúbal').openPopup();
 });

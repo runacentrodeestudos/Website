@@ -133,7 +133,7 @@ function showInfo(course) {
 // Inicializar EmailJS após carregar a página
 document.addEventListener('DOMContentLoaded', function() {
     if (typeof emailjs !== 'undefined') {
-        emailjs.init("F7fAxdkOjcbHD0ut4");
+        emailjs.init("vo0SCq3OXJcLSAmUS");
         console.log('EmailJS inicializado com sucesso');
     } else {
         console.error('EmailJS não carregou corretamente');
@@ -172,15 +172,15 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
         from_email: data.email,
         phone: data.phone || 'Não informado',
         message: data.message,
-        to_email: 'cognitaestudo@gmail.com'
+        to_email: 'runacentrodeestudos@gmail.com'
     });
     
-    emailjs.send('service_u2laeol', 'template_ruhfzvx', {
+    emailjs.send('service_8njr6xk', 'template_7i37cif', {
         from_name: data.name,
         from_email: data.email,
         phone: data.phone || 'Não informado',
         message: data.message,
-        to_email: 'cognitaestudo@gmail.com' // Seu email de destino
+        to_email: 'runacentrodeestudos@gmail.com' // Seu email de destino
     })
     .then(function(response) {
         console.log('Email enviado com sucesso:', response);
